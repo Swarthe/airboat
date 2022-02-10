@@ -12,7 +12,7 @@ Extra features:
 
 ## Design and hardware
 
-![Design](media/00AAA7D3-E7FC-4065-85F4-001BEDC06D00.jpg "Example boat design")
+![Example boat design](media/00AAA7D3-E7FC-4065-85F4-001BEDC06D00.jpg)
 
 `rc` is designed to work with a rudderless double propeller design, and it is
 recommended to space the propellers out to facilitate turning the boat. An
@@ -37,11 +37,13 @@ powered by pin 6 and controlled by pin 4.
 
 ## Controller configuration
 
-![Controller](media/C6996864-5487-43B1-8ED0-F61349D2CB48.jpg "RoboRemo controller setup" =300x)
+<img src="media/C6996864-5487-43B1-8ED0-F61349D2CB48.jpg"
+     width=35% height=35% alt="RoboRemo controller setup">
 
-`rc` is controlled from RoboRemo (on Android) using 2 sliders, a heartbeat,
-and an optional stop button (recommended). RoboRemo inputs send text such as "y
-xxx" or "y", where y is a number 0...9 and xxx a number 0..255.
+`rc` is controlled from [RoboRemo](https://www.roboremo.app/) on Android using 2
+sliders, a heartbeat, and an optional stop button (recommended). RoboRemo inputs
+send text such as "y xxx" or "y", where y is a number 0...9 and xxx a number
+0..255.
 
 The heartbeat must be configured to send a ping every 250 milliseconds with ID
 3. If used, the stop button must be configured with to use ID 2.
@@ -53,6 +55,8 @@ for the right slider.
 release.**
 
 ## Usage
+
+![Example boat in the water](media/738BEC6B-5217-42C8-91A5-83E989464F0B.jpg)
 
 The motors are stopped when the sliders are in the middle position, reversed
 when below and spinning normally when above. It is possible to rapidly turn the

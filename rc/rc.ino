@@ -3,10 +3,11 @@
  *
  * See README.md for instructions and more information.
  *
- * Copyright (c) 2021 Emil Overbeck <https://github.com/Swarthe>
- * Copyright (c) 2021 Claudiu Cherciu
+ * Copyright (C) 2021 Emil Overbeck <https://github.com/Swarthe>
+ * Copyright (C) 2021 Claudiu Cherciu
  *
  * Licensed under the MIT License. See LICENSE.txt for more information.
+ *
  */
 
 #include <SoftwareSerial.h>
@@ -97,4 +98,3 @@ void loop()
         }
     }
 }
-
